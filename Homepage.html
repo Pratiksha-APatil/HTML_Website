@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navigation bar</title>
+  <!-- <link rel="stylesheet" href="styles.css"> -->
+
+  <style>
+    *{
+      margin:0px;
+      padding:0px;
+    }
+header{
+  position:sticky;
+  top:0%;
+  left:0%;
+  z-index:999;
+  background-color: rgb(231, 220, 57);
+}
+ header .header-content{
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+.navbar-link{
+  display:flex;
+  padding :0px 10px;
+  align-items: center;
+    justify-content: center;
+}
+.navbar-link li {
+  margin: 0px 10px;
+  list-style: none;
+}
+
+header .header-content .navbar .navbar-link li a{
+   text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+    position: relative;
+    transition: 0.3s ease;
+} 
+/* header style end here */
+.block{
+    position: absolute;  
+  background-repeat: no-repeat;
+   background-size: contain;
+  top :20%;
+  left:5%;
+  width:90%;
+  height:300px;
+  background-color:rgb(216, 186, 51);
+
+}
+
+.feature{
+  position: absolute;
+  top:60%;
+  left:10%;
+ 
+  width:79%;
+  height:300px;
+background-color: rgb(255, 255, 255);
+}
+.feature img{
+  padding : 10px 10px;
+  border :2px solid #000000;
+  margin : 0px 30px;
+}
+.feature p{
+  padding : 10px 10px;
+  margin : 0px 30px;
+  display: inline-block;
+  width :27%;
+}
+
+ 
+
+
+
+    </style>
+    <body>
+      <!-- header is created -->
+      <header>  
+       <div class="header-content">
+        <h1>Udyog Sarthi</h1>
+        <div class="navbar">
+            <ul class="navbar-link">
+              <li><a href="#">User Profile</a></li>
+              <li><a href="#">Message</a></li> 
+              <li><a href="Login.html">Login/Signup</a></li>
+            </ul>
+        </div>
+       </div>
+      </header>
+      <!-- header ends here -->
+
+     <div class ="block"><img src ="togetherimg.jpeg" height="100%" width="100%"> </div>
+     <div class="feature">
+    
+     <img src="block22.jpg" height="200px" width="400px">
+     <img src="block33.png" height="200px" width="400px">
+     <img src="block33.png" height="200px" width="400px">
+     <p>Feature1</p> <p>Feature2</p> <p>Feature3</p>
+
+ </div> 
+     
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </body></html>
+
