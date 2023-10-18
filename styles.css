@@ -14,9 +14,7 @@ body {
 }
 
 .main {
-  
   margin: 10px;
-
 }
 
 .box {
@@ -28,7 +26,7 @@ body {
   width: 400px;
   height: 500px;
   padding: 15px;
-  background: rgba(212, 199, 138, 0.8);
+  background: rgb(83, 82, 76);
 }
 
 input[type=text],
@@ -47,8 +45,8 @@ input[type=password] {
 }
 
 .btn {
-  background-color: #ddbc28;
-  color: rgb(0, 0, 0);
+  background-color: #3f3e44;
+  color: rgb(255, 255, 255);
   padding: 15px 5px;
   margin: 10px 0px;
   border: none;
@@ -62,12 +60,17 @@ input[type=password] {
 .pass {
   text-align: left;
   margin: 10px;
+ 
 }
+.pass a{
+  color: aliceblue;
+  text-decoration: none;
+} 
 button a{
-  color: black;
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
-
-.path {
-  font-size: 20px;
+.path a{
+  text-decoration: none;
+  color: aliceblue;
 }
